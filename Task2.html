@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User form</title>
+</head>
+
+<body bgcolor="gray">
+
+    <center>
+        <h1 style="color: red;"> Registration form</h1>
+    </center>
+    <form id="registrationForm" style="background-color: darkkhaki;">
+        <table>
+            <tr>
+                <td>
+                    <h3>Name:</h3>
+                </td>
+                <td>
+                    <h3> <input type="text" placeholder="Name" id="n1" required></h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Password:</h3>
+                </td>
+                <td>
+                    <h3><input type="password" placeholder="password" id="n2" required minlength="8"></h3>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>
+                        Gender:
+                    </h3>
+                </td>
+                <td>
+
+                    <h3><input type="radio" name="Gender" value="Male" id="n3" checked required>Male</h3>
+
+                    <h3><input type="radio" name="Gender" value="Female" id="n4" required>Female</h3>
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Email:</h3>
+                </td>
+                <td>
+                    <h3> <input type="email" placeholder="Email" id="n5" required minlength="8"></h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Phone:</h3>
+                </td>
+                <td>
+                    <select>
+                        <option>+91</option>
+                        <option>+92</option>
+                        <option>+93</option>
+                        <option>+94</option>
+                    </select>
+                    <h3><input type="tel" placeholder="99********" id="n6" required minlength="10"></h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Identity Proof:</h3>
+                </td>
+                <td>
+                    <h3><input type="checkbox" name="identity" value="Aadhar card" id="n7">Aadhar card</h3>
+                    <h3><input type="checkbox" name="identity" value="Voter card">Voter card</h3>
+                    <h3><input type="checkbox" name="identity" value="Pan card">Pan card</h3>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3 id="n8"> Select Exam Center:</h3>
+                </td>
+                <td>
+                    <select id="n8">
+                        <option>Jaipur</option>
+                        <option>Ajmer</option>
+                        <option>kota</option>
+                        <option>Udaipur</option>
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Exam Date</h3>
+                </td>
+                <td>
+                    <h3><input type="date" name="examDate" id="n9" required></h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3><input type="submit" name="submit" value="submit your data"></h3>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+
+</html>
